@@ -1,0 +1,234 @@
+body {
+    background-image: url("https://wallpapercrafter.com/desktop2/769512-glasses-vision-eyeglasses-eye-glasses-eyesight.jpg");
+    background-size:cover
+  }
+h1{
+  color: antiquewhite;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 500px;
+}
+p{
+  font-size: 28px;
+  color: antiquewhite;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 480px;
+}
+
+div{
+  margin-left: 580px;
+   }
+  .card{
+    width: 240px;
+    height: 254px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 30px;
+  }
+  .card svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .card > * {
+    margin: 0;
+  }
+  
+  .card__title {
+    font-size: 23px;
+    font-weight: 900;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+  }
+  
+  .card__content {
+    font-size: 13px;
+    line-height: 18px;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+  
+  .card__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+  
+  .card__form input {
+    margin-top: 10px;
+    padding: 0.6em;
+    border-radius: 14px;
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+  }
+  
+  .card__form button {
+    border: 0;
+    background: #111;
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+  }
+  
+  .sign-up{
+     
+      --primary-color: #865421;
+      --secondary-color: #fff;
+      --hover-color: #d28436;
+      border-radius: 22px;
+      color: var(--secondary-color);
+      padding: 1em 1.8em;
+      background: var(--primary-color);
+      display: flex;
+      transition: 1.3s ;
+      gap: 0.6em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+      padding-left: 57px;
+    }
+
+     .arrow-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+     .arrow {
+      margin-top: 1px;
+      width: var(--arrow-width);
+      background: var(--primary-color);
+      height: var(--arrow-stroke);
+      position: relative;
+      transition: 0.2s;
+    }
+    
+     .arrow::before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      border: solid var(--secondary-color);
+      border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+      display: inline-block;
+      top: -3px;
+      right: 3px;
+      transition: 0.2s;
+      padding: 3px;
+      transform: rotate(-45deg);
+    }
+    
+    :hover {
+      background-color: var(--hover-color);
+    }
+    
+    :hover .arrow {
+      background: var(--secondary-color);
+    }
+    
+    :hover .arrow:before {
+      right: 0;
+    }
+   button{
+      display: flex;
+      padding: 10px 15px;
+      background-color: #d2d2d2;
+      outline: 3px #cbcbcb solid;
+      border-radius: 25px;
+      
+      transition: 400ms;
+      margin-left: 1300px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 18px;
+    }
+    #socMed{
+      margin-left: 440px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 48px;
+    }
+    .container {
+      position: relative;
+      width: 250px;
+     /*  choose your size */
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .container button {
+      width: 50px;
+      height: 50px;
+      border: none;
+      background-color: #313638;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    
+    .icon {
+      width: 26px;
+      height: 26px;
+      fill: #fff;
+    }
+    
+    .container button:nth-child(1):hover {
+      background-color: #2753a7;
+    }
+    
+    .container button:nth-child(2):hover {
+      background-color: #cd242b;
+    }
+    
+    .container button:nth-child(3):hover {
+      background-color: #55acee;
+    }
+    
+    .container button:nth-child(4):hover {
+      background-color: #0274b3;
+    }
+    
+    .title {
+      color: gray;
+      font-weight: 700;
+      font-size: 17px;
+      position: absolute;
+      top: -35px;
+      left: 0;
+    }
+    #insta{
+      background-image: url("data:image/jpeg;base64,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");
+      background-size:cover;
+      margin-left: 530px;
+      color: #c2c1c3;
+      border-radius: 30%;
+    }
+    #fb{
+      background-image: url("data:image/jpeg;base64,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");
+      background-size:cover;
+      color: #ffffff;
+      margin-left: 640px;
+      margin-top: -43.5px;
+      border-radius: 30%;
+     font-size: 20px;
+    }
+    #ytube{
+     background-image: url("https://img.freepik.com/free-photo/abstract-gradient-neon-lights_23-2149279115.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696896000&semt=ais");
+      background-size:cover;
+      color: #fff;
+      margin-left: 780px;
+      margin-top: -43.5px;
+      border-radius: 30%;
+    }
+    #whsapp{
+      background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/green-theme-background_GyK-K3w__thumb.jpg");
+      background-size:cover;
+      color: #fff;
+      margin-left: 890px;
+      margin-top: -43.5px;
+      border-radius: 30%;
+    }
