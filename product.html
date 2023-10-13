@@ -5,14 +5,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lunetti - Shop</title>
+    <title>Lunetti - product</title>
 </head>
 <body>
   <div class="sale">
-    <p id="saletext">Limited time only! <b style="color:red">FREE SHIPPING</b> on all orders over 100Dt</p>
+    <p id="saletext">Limited time only! <b style="color:red">FREE SHIPPING</b> on all orders over 100$</p>
   </div>
   <div id="nav">
-    <h1 id="shopname">Lunetti Shop</h1>
+    <a id="lunettititle" href="lunetti.html"><h1 id="shopname">Lunetti Shop</h1></a>
     <a id="cart" href=product.html><i class="fa fa-shopping-cart" aria-hidden="true"></i> cart</a> 
     <a id="logout" href=index.html><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a> 
 
@@ -21,40 +21,24 @@
   </div> 
   </div>
 
-  <div style="position: relative;">
-    <button class="slider-button" id="prev"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
-    <button class="slider-button" id="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-    <div id="slider"></div>
-   </div>
-
-
-   <div class="filters">
-    <button class="filter" id="sortcheap">Price <i class="fa fa-arrow-up" aria-hidden="true"></i></button>
-    <button class="filter" id="sortexp">Price <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
-    <button class="filter" id="swomen">Women</button>
-    <button class="filter" id="smen">Men</button>
-  </div>
-
-  <div id="womenlunettis">
-    <div id="nav3">
-      <h2>WOMEN</h2>
-  
+  <div class="container">
+    <div class="img">
+      <img src="images/s4.jpg" >
     </div>
-    <div id="women" class="lunettis">
+    <div class="details">
+      <h2 id="title">Lunetti1</h2>
+      <h6 id="ref">Ref: 1337420</h6>
+      <p id="description">Emporio Armani is the pioneering line launched by Giorgio Armani in 1981,<br> aimed at the young. Emporio Armani expresses vitality and a carefree attitude</p>
+      <h4>Size:</h4>
+      <p class="detail">M (132mm)</p>
+        <h4>Color</h4>
+        <p class="detail">Black ⚫️</p>
+        <h4>Price</h4>
+        <p class="detail">198$</p>
+      <input id="number" type="number" value="1"><br>
+      <button id="addtocart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to cart</button>
     </div>
   </div>
-
-
-  <div id="menlunettis">
-  <div id="nav2">
-    <h2>MEN</h2>
-  </div>
-  <div id="men" class="lunettis">
-  </div>
-  </div>
-
- 
- 
 
  <div class="footer" style="position: relative;">
   <p style="color: white;padding-top: 30px;" href="#home">Lunetti Shop - RBK 2023</p>
